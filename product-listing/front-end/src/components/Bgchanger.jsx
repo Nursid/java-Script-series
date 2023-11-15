@@ -6,6 +6,7 @@ const bg_color=()=>{
     for(var i=0; i<6; i++){
       val+=alpha[Math.floor(Math.random()*16)]
       document.querySelector(".bg-color").style.backgroundColor = val;
+      document.body.style.backgroundColor = val;
       }
   }
     return(
