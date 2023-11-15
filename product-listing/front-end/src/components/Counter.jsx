@@ -2,9 +2,7 @@ import { useState } from "react"
 function Counter(){
 var [counter, setcounter]=useState(3)
 const count=()=>{
-   setcounter( counter+1)
-
-
+   setcounter(counter+1)
 }
 const remove=()=>{
     setcounter(counter-1)
